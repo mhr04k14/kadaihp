@@ -1,0 +1,101 @@
+li {
+    list-style: none;
+}
+
+
+.header {
+  background-color: #996633	;
+  color: #fff;
+  height: 90px;
+}
+  
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+  
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+}
+  
+.body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://cdn.pixabay.com/photo/2017/04/19/13/03/coffee-2242213_960_720.jpg);
+  color: white;
+  background-size: cover;
+  opacity: 0.68;
+  background-position-x: 0px;
+  background-position-y: -205px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1380px) {
+    .top-wrapper background-image {
+        flex-direction: row;
+    }
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+}
+
+.center-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.cafe {
+  background-color: #fff;
+  color: #996633;
+  border-bottom: 1px solid #999999;
+}
+
+.cafe span {
+  background-color: #996633;
+  color: #fff;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  border-radius: 20px;
+  font-family: Helvetica;
+}
+
+.cafe img {
+  max-width: 48%;
+  float: left;
+  padding: 5px;
+}
+
+
+.footer {
+  background-color: #996633;
+  color:#fff;
+  height: 70px;
+  padding: 40px 40px;
+}
+.footer-logo {
+  float: left;
+  font-size: 30px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 5px;
+}
